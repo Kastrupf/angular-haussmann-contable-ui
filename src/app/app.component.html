@@ -1,15 +1,25 @@
+<div class= "container">
+  <div class="p-grid">
 
-<span>{{ title }} </span>
+    <div class="p-col-12 p-md-6 p-lg-3">
+      <h1>Registres</h1>
+    </div>
 
+    <div class="p-col-12 p-md-6 p-lg-3 ui-fluid">
+      <label>Description</label>
+      <input pInputText  type="text"/>
+    </div>
 
-<p-tabView>
-  <p-tabPanel header="H 1">
-     Test 1
-  </p-tabPanel>
-  <p-tabPanel header="H 2">
-     Test 2
-  </p-tabPanel>
-  <p-tabPanel header="H 3">
-      Test 3
-  </p-tabPanel>
-</p-tabView>
+    <div class="p-col-12 p-md-6 p-lg-3">
+      <label style="display: block">Paiement du</label>
+      <input pInputText type="text" style="width: 95px"/>
+
+      <label>au</label>
+      <input pInputText type="text" style="width: 95px"/>
+    </div>
+
+    <div class="p-col-12 p-md-6 p-lg-3">
+      <p-button type="submit" label="Rechercher"></p-button>
+    </div>
+  </div>
+</div>
